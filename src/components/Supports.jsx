@@ -97,10 +97,11 @@ const styles = {
     maxWidth: '1200px',
     margin: 'auto',
     padding: '20px',
-    backgroundColor: '#f0f0f0',
+    backgroundColor: '#462a57',
     borderRadius: '10px',
     boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
     textAlign: 'center',
+    color: 'white',
   },
   title: {
     marginBottom: '20px',

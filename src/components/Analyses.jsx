@@ -37,12 +37,14 @@ function Analyses() {
 const styles = {
   container: {
     width: '80%',
-    margin: 'auto',
+    marginLeft: '280px',
+    //margin: 'auto',
     padding: '20px',
-    backgroundColor: '#f9f9f9',
+    backgroundColor: '#907c9c',
     borderRadius: '10px',
     boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
     textAlign: 'center',
+    color: 'white',
   },
   title: {
     marginBottom: '20px',
@@ -55,7 +57,7 @@ const styles = {
   },
   card: {
     flex: '1 1 calc(25% - 20px)',
-    backgroundColor: '#007bff',
+    backgroundColor: '#462a57',
     color: '#fff',
     padding: '20px',
     borderRadius: '10px',

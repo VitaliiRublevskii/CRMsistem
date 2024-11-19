@@ -6,7 +6,6 @@ function Home() {
     { title: 'Sales Funnel', description: 'Track all stages of sales.' },
     { title: 'Customer Support', description: 'Respond quickly to inquiries.' },
   ];
-  
 
   return (
     <div style={styles.container}>
@@ -24,48 +23,48 @@ function Home() {
       </div>
     </div>
   );
-  
-  
 }
 
 const styles = {
   container: {
-    fontFamily: 'Arial, sans-serif',
+    marginLeft: '420px', 
     padding: '20px',
+    backgroundColor: '#462a57',
+    borderRadius: '10px',
+    maxWidth: '1200px',
+    marginTop: '20px', 
+  },
+  textContainer: {
+    backgroundColor: '#fff',
+    padding: '20px',
+    borderRadius: '10px',
     textAlign: 'center',
-    borderRadius: '8px',
-    boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
+    marginBottom: '20px',
+  },
+  heading: {
+    color: '#333',
+    fontSize: '36px',
+    margin: '10px 0',
+  },
+  paragraph: {
+    color: '#555',
+    fontSize: '18px',
+    margin: '10px 0',
   },
   cardContainer: {
     display: 'flex',
-    justifyContent: 'center',
+    justifyContent: 'space-around',
+    flexWrap: 'wrap', 
     gap: '20px',
-    marginTop: '20px',
   },
   card: {
     backgroundColor: '#fff',
     padding: '15px',
-    fontSize: '24px',
     borderRadius: '8px',
     boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
-    maxWidth: '250px',
-    textAlign: 'left',
-  },
-  textContainer: {
-    backgroundColor: '#fff', 
-    padding: '10px', 
-    display: 'inline-block', 
-    borderRadius: '10px', 
-  },
-  heading: {
-    color: 'black', 
-    fontSize: '42px',
-  },
-  paragraph: {
-    color: 'black', 
-    fontSize: '36px', 
+    width: '250px', 
+    textAlign: 'center',
   },
 };
-
 
 export default Home;

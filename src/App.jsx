@@ -7,10 +7,11 @@ import Navigation from './components/Navigation.jsx';
 
 function App() {
   return (
-    
-    <BrowserRouter> 
-      <Navigation />
-      <AppRoutes />
+    <BrowserRouter>
+      <div style={{ display: 'flex' }}>
+        <Navigation />
+        <AppRoutes />
+      </div>
     </BrowserRouter>
   );
 }

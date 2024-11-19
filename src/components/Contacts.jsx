@@ -53,6 +53,10 @@ const styles = {
   container: {
     padding: '20px',
     fontFamily: 'Arial, sans-serif',
+    marginLeft: '420px', 
+    color: 'white',
+    backgroundColor: '#462a57',
+    
   },
   heading: {
     fontSize: '32px',
@@ -71,6 +75,7 @@ const styles = {
     padding: '15px',
     borderRadius: '8px',
     boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
+    backgroundColor: '#907c9c',
   },
   map: {
     flex: 1,
@@ -78,22 +83,24 @@ const styles = {
     padding: '15px',
     borderRadius: '8px',
     boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
+    backgroundColor: '#907c9c',
   },
   formSection: {
     backgroundColor: '#f9f9f9',
     padding: '20px',
     borderRadius: '8px',
     boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
+    backgroundColor: '#907c9c',
   },
   input: {
-    width: '100%',
+    width: '90%',
     padding: '10px',
     marginBottom: '10px',
     borderRadius: '4px',
     border: '1px solid #ccc',
   },
   textarea: {
-    width: '100%',
+    width: '90%',
     padding: '10px',
     borderRadius: '4px',
     border: '1px solid #ccc',

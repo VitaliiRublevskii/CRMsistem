@@ -184,10 +184,11 @@ function Buyers() {
 const styles = {
   container: {
     padding: '20px',
-    backgroundColor: '#f0f0f0',
+    backgroundColor: '#462a57',
     borderRadius: '10px',
     maxWidth: '1200px',
     margin: '0 auto',
+    color: 'white',
   },
   title: {
     textAlign: 'center',
